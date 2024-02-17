@@ -1,0 +1,25 @@
+.navigation{
+    display: inline-block;
+}
+
+span{
+display: inline-block;  
+ }
+
+ .navigation ul li{ display: inline-block; 
+
+ }
+
+ .navigation ul li a{ display: inline-block; 
+  text-decoration: none;
+  color: #DC5D85;
+ }
+h1{
+    color:#DC5D85; font-family:cursive; font-style:oblique
+}
+p{
+     font-family:cursive; color:#EB7C8F;
+}
+
+
+
