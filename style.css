@@ -1,25 +1,82 @@
 .navigation{
     display: inline-block;
+    list-style: none;
 }
 
 span{
 display: inline-block;  
  }
 
- .navigation ul li{ display: inline-block; 
+ .navigation .navigation__list li{ display: inline-block; 
 
  }
 
- .navigation ul li a{ display: inline-block; 
+ .navigation .navigation__list a{ display: inline-block; 
   text-decoration: none;
   color: #DC5D85;
  }
-h1{
+
+ .hero .hero__description{
+      width: 60%;
+ }
+
+ .card-wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.products,
+.testimonial{
+    
+    width: 20%;
+}
+
+.hero{
+    margin-top: 50px;
+    background-image:url("src/styles/Sweet\ Rolls.jpg")
+}
+
+.section{
+    margin: 100px 0;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1,span, footer{
     color:#DC5D85; font-family:cursive; font-style:oblique
 }
+
+.hero.hero__btn{
+    background-color:#DEB3AD;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #aa8985;
+}
+
 p{
      font-family:cursive; color:#EB7C8F;
 }
 
+header,footer{
+    background-color: #DFD1C5;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #DC5D85;
+}
 
 
+.footer-list li  {
+    text-decoration: none;
+    list-style: none;
+    color: #DC5D85;  
+}
