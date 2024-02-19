@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Welcome to Sweet Rolls Bakery</title>
+
 </head>
 
 <body>
@@ -32,22 +33,56 @@
     </nav>
   </header>
 
-  <div class="hero">
-    <h1 class="hero__title">Welcome to Sweet Rolls</h1>
-    <p class="hero__description">"Freshly Baked in small batches"</p>
-      <p>Only the finest ingredients, we bake our cakes fresh in small batches every day, to ensure our customers get the best.
-      We are ready to be part of your precious and joyous occasions by accentuating the moments with our cakes</p> 
+  <div class="hero" style="color: #DEB3AD;">
+    <h1 class="hero__title" style="color:#DC5D85;">Welcome to Sweet Rolls</h1>
+    <p class="hero__description" style="color:#EB7C8F;">"Freshly Baked in small batches"
+    </p>
+      <p style=color:#EB7C8F;>
+      "Only the finest ingredients, we bake our cakes fresh in small batches every day, to ensure our customers get the best.
+      We are ready to be part of your precious and joyous occasions by accentuating the moments with our cakes
+    </p> 
     <button class="hero__btn">Explore More!</button>
   </div>
+
+  <section class="container">
+    <div class="slider-wrapper">
+      <div class="slider">
+        <img id="slide-1" src="src/styles/BD.jpeg" alt="a pic of birthday cake roll"/>
+        <img id="slide-2" src="src/styles/Blackberry-Lemon-Cake-3.jpg" alt="a pic of lemon cake roll"/>
+        <img id="slide-3" src="src/styles/choco.jpg" alt="a pic of choclate cake roll"/>
+        <img id="slide-4" src="src/styles/frost.jpg" alt="a pic of vanilla cake with frosty pattern"/>
+        <img id="slide-5" src="src/styles/lemon.jpg" alt="a pic of lemon cake roll"/>
+        <img id="slide-6" src="src/styles/Mango-swiss-roll-cake.webp" alt="a pic of mango cake roll"/>
+        <img id="slide-7" src="src/styles/MATCHA.jpg" alt="a pic of matcha cake roll"/>
+        <img id="slide-8" src="src/styles/spooky.jpg" alt="a pic of a spooky halloween cake roll"/>
+        <img id="slide-9" src="src/styles/staw.jpg" alt="a pic of strawberry cake roll"/>
+        <img id="slide-10" src="src/styles/Sweet Rolls.jpg" alt="a pic of Sweet Roll logo"/>
+      </div>
+      <div class="slider-nav">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+        <a href="#slide-4"></a>
+        <a href="#slide-5"></a>
+        <a href="#slide-6"></a>
+        <a href="#slide-7"></a>
+        <a href="#slide-8"></a>
+        <a href="#slide-9"></a>
+        <a href="#slide-10"></a>
+      </div>
+    </div>
+
+
+  </section>
   <main>
-    <section class="section">
+    <section class="section" style="background-color: #DFD1C5;">
       
       <h2 class="section-title">Our Bakery Selections</h2>
       <div class="card-wrapper"> 
       <div class="products">
         <img src="https://media.istockphoto.com/id/657779382/photo/green-tea-cake-roll.jpg?s=2048x2048&w=is&k=20&c=i-6ej3iGMWgp_tub2tZBWemcyt6O-ekAlmj70-1CFDw="
          alt="a pic of Matcha cake roll"
-         width="100"
+         width="300rem"
          />
       <h3>Matcha Roll</h3>
       <p>Light and fluffy matcha sponge cake filled with fresh vanilla cream.</p>
@@ -57,7 +92,7 @@
       <div class="products">
         <img src="https://media.istockphoto.com/id/1164189591/photo/chocolate-swiss-roll-with-jam-decorated-with-raspberries-on-a-plate-selective-focus.jpg?s=2048x2048&w=is&k=20&c=_m9tcx9lF_g-04ThUWqGS8R0PcOTbP08pcaIlbDgItc="
         alt="a pic of Chocolate roll"
-        width="100"
+        width="300rem"
         />
         <h3>Chocolate Roll</h3>
         <p>Fudgy light roll filled with hazelnut butter cream and salted caramel</p>
@@ -67,7 +102,7 @@
       <div class="products">
         <img src="https://media.istockphoto.com/id/936618780/photo/strawberry-shortcake-cake-roll-with-cream-cheese-whipped-cream.jpg?s=2048x2048&w=is&k=20&c=bY5BXwWgUNV72Jj7UJajQthGwYtHOZXribXjBnutkJY="
         alt="a pic of strawberry Shortcake roll"
-        width="100"
+        width="300rem"
         />
         <h3>Shortcake Roll</h3>
        <p> Sponge roll filled with vanilla butter cream and fresh strawberries</p>
@@ -97,24 +132,31 @@
       </div>
     </section>
   </main>
+
+   <section class="newsletter" style="background-color: #DFD1C5;">
+  <h3 style="text-align: center;">Join Our Newsletter</h3>
+  <p style="text-align: center;">Sign up to receive email updates on new product announcements, special promotion, sales and more</p>
+    <section class="Newsletter">
+      <label for="newsEmail">Email:</label>
+      <input type="text"name="newsEmail" id="newsEmail">
+      <button>Subscribe</button>
+      </section>
+    </section>
+
+
   <footer>
     <nav class="navigation navigation--footer">
       <ul class="footer-list">
         <li>
-          <a href="index.html"> 
-            FAQ
-          </a>
+          <h5> FAQ</h5>
         </li>
         <li>
-          <a href="index.html"> 
-            About
+            <h5> About</h5>
           </a>
         </li>
 
         <li>
-            <a href="index.html">
-          
-              Contact</a>  
+            <h5>Contact</h5>      
         </li>
       </ul>
       <p>2024|All Rights Reserved</p>
